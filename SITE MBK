@@ -55,7 +55,7 @@ auto-mbk/
     "@types/express": "^4.17.21"
   }
 }
-GEMINI_API_KEY=ta_clé_api_gemini_ici
+GEMINI_API_KEY=AIzaSyANPO5ocG_u-aDcfAWOQ1wRy4lXA2Mc_kk
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
