@@ -15827,9 +15827,14 @@ createRoot(document.getElementById('root')!).render(
   "description": "AUTO MBK - Location de voitures Premium et Vente de véhicules d'occasion à Etoy, Lausanne et Genève.",
   "requestFramePermissions": []
 }
-
+vercel.json
 {
   "name": "AUTO MBK",
   "description": "AUTO MBK - Location de voitures Premium et Vente de véhicules d'occasion à Etoy, Lausanne et Genève.",
   "requestFramePermissions": []
+}
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
